@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <Header
         title="Brussels Weather"
-        src="../assets/weather.png"
+        src="./src/assets/weather.png"
         alt="weather"
       />
       <WeatherContainer />
