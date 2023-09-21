@@ -1,0 +1,22 @@
+.day-box {
+  display: inline-block;
+  margin-left: 1rem;
+  width: 20rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.day-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.day,
+.unit {
+  width: 50%;
+  font-size: 1.3rem;
+  color: rgb(0, 145, 255);
+  font-weight: bolder;
+}

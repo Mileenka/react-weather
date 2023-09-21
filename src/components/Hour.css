@@ -1,0 +1,15 @@
+.hour-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20rem;
+  margin-top: 0.7rem;
+  padding: 2px;
+  background-color: rgba(255, 196, 2, 0.62);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  border-top: 3px solid rgba(9, 6, 8, 0.654);
+  border-left: 4px solid rgba(255, 204, 0, 0.978);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) -7px -5px 8px;
+}

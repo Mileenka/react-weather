@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  gap: 3rem;
+}
+
+h1 {
+  letter-spacing: 0.1rem;
+  background: -webkit-linear-gradient(#64698c 30%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.weather-img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
