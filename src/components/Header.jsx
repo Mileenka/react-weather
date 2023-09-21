@@ -17,7 +17,6 @@ const Header = ({ title, alt }) => {
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
-  src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
 };
 
