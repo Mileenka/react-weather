@@ -2,13 +2,13 @@ import PropTypes from "prop-types";
 
 import "./Header.css";
 
-const Header = ({ title, alt }) => {
+const Header = ({ title,src, alt }) => {
   return (
     <header>
       <h1>{title}</h1>
       <img
         className="weather-img"
-        src={"../src/assets/weather.png"}
+        src={src}
         alt={alt}
       />
     </header>
@@ -17,6 +17,7 @@ const Header = ({ title, alt }) => {
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
 };
 

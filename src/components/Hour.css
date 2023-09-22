@@ -1,7 +1,6 @@
 .hour-container {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   width: 20rem;
   margin-top: 0.7rem;
   padding: 2px;
